@@ -23,7 +23,7 @@ class SyncService {
       );
       if (response.statusCode == 200) {
         // Suppression locale après upload réussi
-        await LocalDbService.Entry(entry.id!);
+        await LocalDbService.deleteEntry(entry.id!);
       }
     }
   }
