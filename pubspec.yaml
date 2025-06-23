@@ -1,0 +1,16 @@
+name: huitresstmichel
+description: Application de gestion de pêche pour tablettes
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  http: ^1.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
